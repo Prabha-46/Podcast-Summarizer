@@ -1,0 +1,63 @@
+# --- Python / FastAPI backend ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env*
+*.sqlite3
+instance/
+*.db
+*.log
+*.pot
+*.pyc
+.mypy_cache/
+.pytest_cache/
+venv/
+ENV/
+.env/
+.venv/
+
+# --- Node.js / Next.js frontend ---
+node_modules/
+.next/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime*
+
+# --- Miscellaneous ---
+coverage/
+dist/
+build/
+*.tgz
+*.lock
+
+# --- AWS credentials ---
+.aws/
+
+# --- Local config ---
+*.local
+
+# --- Test coverage ---
+htmlcov/
+
+# --- Backup & temp files ---
+*.bak
+*.tmp
+
+# --- Project-specific ---
+# Ignore workspace settings and code-workspace files that are not needed in repo
+podcast-summarizer/app/routers/podcast-summarizer.code-workspace 
